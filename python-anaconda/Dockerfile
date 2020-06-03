@@ -47,6 +47,3 @@ RUN echo "PATH=$PATH:/root/anaconda3/bin:root/anaconda3/condabin" >> ~/.bash_pro
 
 RUN /root/anaconda3/bin/conda init
 RUN exec bash
-RUN pip install setuptools --upgrade
-RUN pip install jupyter_contrib_nbextensions &&
-RUN jupyter contrib nbextension install --user
