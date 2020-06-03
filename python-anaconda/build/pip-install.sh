@@ -21,8 +21,8 @@ source ~/.bash_profile
 #conda create -n flask python=3.5 -y &&
 #conda activate flask &&
 #conda info -e &&
-#pip3 install setuptools --upgrade &&
-#pip3 install Flask &&
+#pip install setuptools --upgrade &&
+#pip install Flask &&
 
 ## jupyter notebook Start ##
 /root/anaconda3/bin/jupyter-notebook --ip=0.0.0.0 --port=8888 --allow-root
