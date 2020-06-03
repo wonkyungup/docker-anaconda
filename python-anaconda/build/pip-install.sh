@@ -3,6 +3,9 @@
 #PATH ADD
 source ~/.bash_profile
 pip install setuptools --upgrade &&
+pip install jupyter_contrib_nbextensions &&
+/root/anaconda3/bin/jupyter contrib nbextension install --user
+
 
 ## Install-pytorch ##
 
