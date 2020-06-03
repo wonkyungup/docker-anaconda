@@ -7,8 +7,8 @@ source ~/.bash_profile
 conda create -n pytorch python=3.5 -y &&
 conda activate pytorch &&
 conda info -e &&
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch &&
 pip install setuptools --upgrade &&
-pip install conda install pytorch torchvision cudatoolkit=10.2 -c pytorch &&
 
 ## Install-tensorflow ##
 #conda create -n tensorflow python=3.5 -y &&
