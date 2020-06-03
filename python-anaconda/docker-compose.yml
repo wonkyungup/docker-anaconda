@@ -1,0 +1,14 @@
+version : '3'
+services:
+        python-anaconda:
+                image : netsarang/python3-anaconda
+
+                volumes:
+                        - ./build/:/root/build/
+                ports:
+                        - "8888:8888"
+
+                container_name:
+                        python-anaconda
+                command:
+                        /bin/bash -c "./pip-install ; sleep infinity"
