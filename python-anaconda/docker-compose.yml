@@ -6,7 +6,7 @@ services:
                 volumes:
                         - ./build/:/root/build/
                 ports:
-                        - "8888:8888"
+                         - "1-65535:1-65535"
 
                 container_name:
                         python-anaconda
