@@ -11,4 +11,4 @@ services:
                 container_name:
                         python-anaconda
                 command:
-                        /bin/bash -c "./pip-install ; sleep infinity"
+                        /bin/bash -c "sh /root/build/pip-install.sh ; sleep infinity"
