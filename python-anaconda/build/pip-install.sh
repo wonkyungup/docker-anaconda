@@ -8,7 +8,7 @@ source ~/.bashrc
 #conda activate pytorch &&
 #conda info -e &&
 #conda install setuptools --upgrade
-#conda install pytorch torchvision cudatoolkit=10.2 -c pytorch &&
+#conda install pytorch torchvision cudatoolkit=10.2 -c pytorch -y &&
 #/root/anaconda3/envs/pytorch/bin/pip install jupyter_contrib_nbextensions --upgrade pip &&
 #/root/anaconda3/envs/pytorch/bin/jupyter-contrib-nbextension install --user &&
 #/root/anaconda3/envs/pytorch/bin/jupyter-notebook --ip=0.0.0.0 --port=8888 --allow-root
