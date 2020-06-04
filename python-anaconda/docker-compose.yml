@@ -6,7 +6,10 @@ services:
                 volumes:
                         - ./build/:/root/build/
                 ports:
-                         - "1-65535:1-65535"
+                        - "8888:8888" #Jupyter-notebook
+                        - "5000:5000" #python-flask
+                        - "40000:40000" #python-pytorch
+                        - "6006:6066" #python-tensorflow
 
                 container_name:
                         python-anaconda
